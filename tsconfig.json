@@ -1,4 +1,10 @@
 {
+  "compilerOptions": {
+    "paths": {
+      // mas atajos para importaciones, etc
+      "@/*": ["./src/*"]
+    }
+  },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
